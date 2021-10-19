@@ -62,5 +62,5 @@ ax = fig.add_axes([0,0,1,1])
 if len(yy)<15 and yy[round(len(yy)/2)]-yy[0] < 0.1:
   plt.ylim([0, 0.51])
 #ax.bar(range(1,max_xx+1),yy)
-plt.plot(range(1,max_xx+1),yy)
+ax.bar(range(1,max_xx+1),yy)
 plt.show
